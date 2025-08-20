@@ -176,3 +176,6 @@ assets = [
     ["resources/niri.service", "/usr/lib/systemd/user/", "644"],
     ["resources/niri-shutdown.target", "/usr/lib/systemd/user/", "644"],
 ]
+
+[patch.crates-io]
+libdisplay-info = { git = "https://github.com/nater1983/libdisplay-info-rs.git", branch = "main" }
